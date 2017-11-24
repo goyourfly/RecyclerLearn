@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.goyourfly.recyclerlearn.MyViewGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recycler"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.goyourfly.recyclerlearn.MainActivity">
+    <com.goyourfly.recyclerlearn.MyView
+        android:background="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</com.goyourfly.recyclerlearn.MyViewGroup>
